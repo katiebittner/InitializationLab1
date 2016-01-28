@@ -5,11 +5,11 @@ import static org.junit.Assert.*;
  * Created by katie on 1/28/16.
  */
 public class ColorfulThingSpec {
-    ColorfulThing testThing = new ColorfulThing("chartreuse");
-    String getColorTest = testThing.getColor();
+    ColorfulThing testThing = new ColorfulThing(Color.TIEDYE);
+    String getColorTest = testThing.getColor().toString();
     @Test
     public void colorfulThingTest() {
-       assertEquals(testThing.color, getColorTest);
+       assertEquals("TIEDYE", getColorTest);
 
     }
 }

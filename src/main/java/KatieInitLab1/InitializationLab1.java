@@ -5,17 +5,11 @@ package KatieInitLab1;
  */
 public class InitializationLab1 {
     public static void main(String[] args) {
-
-        BoringThing boring1 = new BoringThing();
-        BoringThing boring2 = new BoringThing();
-        BoringThing boring3 = new BoringThing();
-        BoringThing boring4 = new BoringThing();
-        BoringThing boring5 = new BoringThing();
-        ColorfulThing color1 = new ColorfulThing("mauve");
-        ColorfulThing color2 = new ColorfulThing("lavender");
-        ColorfulThing color3 = new ColorfulThing("tie-dye");
-        ColorfulThing color4 = new ColorfulThing("pink Starburst");
-        ColorfulThing color5 = new ColorfulThing("yellow");
+        ColorfulThing color1 = new ColorfulThing(Color.LAVENDER);
+        ColorfulThing color2 = new ColorfulThing(Color.MAUVE);
+        ColorfulThing color3 = new ColorfulThing(Color.PINKSTARBURST);
+        ColorfulThing color4 = new ColorfulThing(Color.TIEDYE);
+        ColorfulThing color5 = new ColorfulThing(Color.YELLOW);
         System.out.println(color1.getColor());
         System.out.println(color2.getColor());
         System.out.println(color3.getColor());

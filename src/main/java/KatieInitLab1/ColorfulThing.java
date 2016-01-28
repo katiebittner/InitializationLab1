@@ -3,13 +3,17 @@ package KatieInitLab1;
 /**
  * Created by katie on 1/28/16.
  */
+enum Color{
+    MAUVE, LAVENDER, TIEDYE, PINKSTARBURST, YELLOW
+}
+
 public class ColorfulThing {
-    String color;
-    public ColorfulThing(String colorIn){
-        this.color = colorIn;
+    Color color;
+    public ColorfulThing(Color color){
+        this.color = color;
     }
 
-    public String getColor(){
-        return color;
+    public Color getColor(){
+        return this.color;
     }
 }
